@@ -1,6 +1,6 @@
 <div align="center">
 
-# Edgar Cui
+# A.E Cui
 
 **Finance brain. Builder hands. Quant curiosity. Zero patience for manual spreadsheets.**
 
