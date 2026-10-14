@@ -13,7 +13,6 @@ analytics, and risk-controlled trading research.
 ![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=flat-square&logo=metabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Edgar_Cui-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-cui-882b58421)
 [![Email](https://img.shields.io/badge/Email-cuixiuxiong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cuixiuxiong@gmail.com)
@@ -39,7 +38,7 @@ The numbers my tools produce are numbers an auditor can trace.
 - **Data & Analytics** — SQL, pandas, ETL pipelines, data-quality checks,
   semantic layers, BI dashboards (Metabase)
 - **Engineering** — Python, automated testing (pytest), Git, Docker,
-  scheduled jobs, AI-assisted development (Claude Code)
+  scheduled jobs, AI-assisted development
 - **Quant Research** — backtesting, position sizing, risk limits, kill switches,
   broker reconciliation — always paper-first
 
