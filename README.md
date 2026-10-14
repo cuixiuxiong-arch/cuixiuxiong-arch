@@ -1,10 +1,11 @@
 <div align="center">
 
-# A.E Cui
+# Edgar Cui
 
-**Finance brain. Builder hands. Quant curiosity. Zero patience for manual spreadsheets.**
+### Finance Professional · Self-taught Software Builder · Quant Research
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=I+turn+messy+ledgers+into+live+dashboards.;Self-taught.+AI-paired.+Shipping+anyway.;Debits+on+the+left%2C+Python+on+the+right.;I+build+systems+that+say+%22no%22+before+I+lose+money." alt="typing" />
+Turning finance know-how into reliable software — automated reporting,
+analytics, and risk-controlled trading research.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -14,59 +15,89 @@
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Edgar_Cui-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-cui-882b58421)
+[![Email](https://img.shields.io/badge/Email-cuixiuxiong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cuixiuxiong@gmail.com)
+
 </div>
 
 ---
 
-### The short version
+## About
 
-I'm a finance professional who refused to wait for IT. No CS degree, no bootcamp — just real problems, an AI pair programmer, and a habit of shipping. Today I run 10+ personal software projects across finance automation, market analytics and quantitative trading research.
+I work in finance and build the software I wish finance teams had. I started with
+no programming background; today I design and ship end-to-end tools — data pipelines,
+dashboards, reconciliation utilities and paper-first trading systems — using Python,
+SQL and AI-assisted development.
 
-I'm fluent in two languages: double-entry bookkeeping and Python.
+My edge is the overlap: I understand how the ledger works *and* how the code works.
+The numbers my tools produce are numbers an auditor can trace.
 
-### What I build
+## Core Competencies
 
-- **Finance automation** — If a report gets built by hand twice, I automate it. Then I automate the checks on it.
-- **Dashboards people actually open** — One source of truth. No more "which version is right?" meetings.
-- **Data pipelines** — Pull, clean, reconcile, publish. Every night. No drama.
-- **Quant & trading systems** — Paper-first by design: position sizing, kill switches, broker reconciliation and idempotent order routing. The bot proposes; a human disposes.
-- **Market dashboards** — Read-only command centres for A-share and US markets with scheduled alerts, session-aware timing and next-day order planning.
-- **Culture × data experiments** — I map 2,000-year-old Chinese calendar systems (I Ching, Five Elements) onto modern market data. For curiosity, not for forecasting.
+- **Finance & Control** — month-end close, reconciliations, indirect tax (GST/VAT),
+  internal controls, audit-trail design, management reporting
+- **Data & Analytics** — SQL, pandas, ETL pipelines, data-quality checks,
+  semantic layers, BI dashboards (Metabase)
+- **Engineering** — Python, automated testing (pytest), Git, Docker,
+  scheduled jobs, AI-assisted development (Claude Code)
+- **Quant Research** — backtesting, position sizing, risk limits, kill switches,
+  broker reconciliation — always paper-first
 
-### Selected projects (private — happy to demo)
+## Featured Work
 
-| Project | What it does |
-|---|---|
-| `us-stock-platform` | US market command centre: trend ETFs, four-layer screening funnel, sell-signal engine, scheduled alerts |
-| `ashare-dapan-platform` | A-share next-day limit-order planner: pullback screening, risk gates, one-click order sheet |
-| `us-quant` / `ibkr-quant` | Event-driven quant engine with backtester, risk manager, kill switch and reconciler — paper-first |
-| `okx-quant-bot` | Crypto grid strategy with position protection and a watchdog |
-| `bazi-dashboard` | Calendar-science engine with 100+ automated tests and a live web dashboard |
-| `lottery-analyzer` | A statistics lesson disguised as a lottery tool: budget caps, expected-value reality checks |
+<sub>Private repositories — demos available on request.</sub>
 
-### How I work
+**US Market Command Centre** · `us-stock-platform`
+> *Problem:* trading US markets from another time zone, with no time to watch screens.
+> *Built:* a read-only dashboard with a market-regime light (SPY vs 200-day MA, VIX,
+> breadth), a four-layer screening funnel, a sell-signal engine and session-aware
+> scheduled alerts. No order placement by design; every alert states the rule behind it.
 
-- Money is `Decimal`, never `float`. Rounding errors are not a personality trait.
-- Raw data is sacred and read-only. Always work on a copy.
-- Every number must trace back to its source. If I can't show the formula, it doesn't ship.
-- No bot touches real money without a human saying yes.
-- AI writes fast; I review like an auditor.
+**A-share Next-day Order Planner** · `ashare-dapan-platform`
+> *Problem:* delayed data, T+1 settlement, no intraday monitoring.
+> *Built:* after-close screening that outputs a next-day limit-order sheet (entry, stop,
+> target), 1%-risk position sizing, per-stock caps, daily new-position limits and a
+> losing-streak pause.
 
-### By the numbers
+**Event-driven Quant Engine** · `us-quant` / `ibkr-quant`
+> Strategy registry, backtester, risk manager, kill switch, idempotent order router,
+> broker reconciler and trade journal — with a test suite around every risk control.
+> Live trading is gated behind configuration *and* human approval.
 
-- **10+** private projects shipped
-- **100+** automated tests in a single project
-- **2** markets covered end-to-end (A-share and US)
-- **0** real-money orders placed by a bot without human approval
+**Calendar-science Dashboard** · `bazi-dashboard`
+> A deterministic calendar engine (solar terms, true solar time) with a timeline and
+> web UI. 100+ automated tests; scoring uses no LLM, so every result is reproducible.
 
-### Currently exploring
+Also: `okx-quant-bot` (grid strategy + watchdog) · `lottery-analyzer`
+(an expected-value reality check) · I Ching / Five Elements market dashboards.
 
+## Engineering Principles
+
+1. **Money is `Decimal`, never `float`.**
+2. **Raw data is read-only.** Work on copies; keep the source intact.
+3. **Every number is traceable** — source, formula, intermediate steps, result.
+4. **Tests before trust.** Core logic is covered by automated tests.
+5. **Human in the loop.** No automated system moves real money without explicit approval.
+6. **Secrets never live in code.**
+7. **AI drafts; I audit.**
+
+## By the Numbers
+
+| 10+ | 100+ | 2 | 0 |
+|:---:|:---:|:---:|:---:|
+| private projects shipped | automated tests in one project | markets covered end-to-end | bot orders without human approval |
+
+## Currently
+
+- Building an open-source starter kit for finance professionals adopting AI coding tools
 - Self-service analytics for non-technical teams
-- AI agents that handle the boring 80% of finance work
-- Turning my finance rules into an open-source starter kit for finance people who want to build
+- AI agents for repetitive finance workflows
 
-### Let's talk
+## Open To
 
-Finance people who want to build, and builders who want to understand finance — my door is open.
+Finance systems, financial analysis and finance automation roles — and collaboration
+on open-source tools for finance professionals.
+Reach me on [LinkedIn](https://www.linkedin.com/in/edgar-cui-882b58421) or at
+[cuixiuxiong@gmail.com](mailto:cuixiuxiong@gmail.com).
 
-<sub>Standing on the shoulders of open source. Thanks to everyone behind pandas, Metabase and the docs that taught me everything.</sub>
+<sub>Built on open source. Thanks to the pandas, Metabase and Python communities.</sub>
