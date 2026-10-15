@@ -14,6 +14,7 @@ analytics, and risk-controlled trading research.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
+[![Website](https://img.shields.io/badge/Website-auditablecode.com-0D2137?style=flat-square)](https://auditablecode.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Edgar_Cui-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-cui-882b58421)
 [![Email](https://img.shields.io/badge/Email-cuixiuxiong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cuixiuxiong@gmail.com)
 
@@ -30,6 +31,9 @@ SQL and AI-assisted development.
 
 My edge is the overlap: I understand how the ledger works *and* how the code works.
 The numbers my tools produce are numbers an auditor can trace.
+
+Now building **Auditable Code** — free finance calculators that show their working,
+and small kits for finance teams who automate with AI: https://auditablecode.com
 
 ## Core Competencies
 
