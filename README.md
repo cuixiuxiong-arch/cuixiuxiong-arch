@@ -2,10 +2,10 @@
 
 # Edgar Cui
 
-### Finance Professional · Self-taught Software Builder · Quant Research
+### Finance Professional · Systems Accountant · Self-taught Software Builder
 
 Turning finance know-how into reliable software — automated reporting,
-analytics, and risk-controlled trading research.
+reconciliation and analytics.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -26,8 +26,8 @@ analytics, and risk-controlled trading research.
 
 I work in finance and build the software I wish finance teams had. I started with
 no programming background; today I design and ship end-to-end tools — data pipelines,
-dashboards, reconciliation utilities and paper-first trading systems — using Python,
-SQL and AI-assisted development.
+dashboards and reconciliation utilities — using Python, SQL and
+AI-assisted development.
 
 My edge is the overlap: I understand how the ledger works *and* how the code works.
 The numbers my tools produce are numbers an auditor can trace.
@@ -43,36 +43,25 @@ and small kits for finance teams who automate with AI: https://auditablecode.com
   semantic layers, BI dashboards (Metabase)
 - **Engineering** — Python, automated testing (pytest), Git, Docker,
   scheduled jobs, AI-assisted development
-- **Quant Research** — backtesting, position sizing, risk limits, kill switches,
-  broker reconciliation — always paper-first
 
 ## Featured Work
 
 <sub>Private repositories — demos available on request.</sub>
 
-**US Market Command Centre** · `us-stock-platform`
-> *Problem:* trading US markets from another time zone, with no time to watch screens.
-> *Built:* a read-only dashboard with a market-regime light (SPY vs 200-day MA, VIX,
-> breadth), a four-layer screening funnel, a sell-signal engine and session-aware
-> scheduled alerts. No order placement by design; every alert states the rule behind it.
+**Finance Calculators** · [auditablecode.com/calc](https://auditablecode.com/calc)
+> Tax add/remove, margin and markup, loan repayment schedules, an invoice re-check and
+> a two-list reconciliation. Every result shows its working: the formula, the inputs and
+> each rounded step. Runs in the browser; nothing typed is sent anywhere.
 
-**A-share Next-day Order Planner** · `ashare-dapan-platform`
-> *Problem:* delayed data, T+1 settlement, no intraday monitoring.
-> *Built:* after-close screening that outputs a next-day limit-order sheet (entry, stop,
-> target), 1%-risk position sizing, per-stock caps, daily new-position limits and a
-> losing-streak pause.
-
-**Event-driven Quant Engine** · `us-quant` / `ibkr-quant`
-> Strategy registry, backtester, risk manager, kill switch, idempotent order router,
-> broker reconciler and trade journal — with a test suite around every risk control.
-> Live trading is gated behind configuration *and* human approval.
+**Bank Reconciliation Template** · Excel
+> Matches bank statement lines to the cash book by reference, then by amount, lists
+> outstanding items and builds the reconciliation statement. Formulas only, no macros.
 
 **Calendar-science Dashboard** · `bazi-dashboard`
 > A deterministic calendar engine (solar terms, true solar time) with a timeline and
 > web UI. 100+ automated tests; scoring uses no LLM, so every result is reproducible.
 
-Also: `okx-quant-bot` (grid strategy + watchdog) · `lottery-analyzer`
-(an expected-value reality check) · I Ching / Five Elements market dashboards.
+Also: `lottery-analyzer` (an expected-value reality check).
 
 ## Engineering Principles
 
@@ -86,9 +75,9 @@ Also: `okx-quant-bot` (grid strategy + watchdog) · `lottery-analyzer`
 
 ## By the Numbers
 
-| 10+ | 100+ | 2 | 0 |
-|:---:|:---:|:---:|:---:|
-| private projects shipped | automated tests in one project | markets covered end-to-end | bot orders without human approval |
+| 10+ | 100+ |
+|:---:|:---:|
+| private projects shipped | automated tests in one project |
 
 ## Currently
 
