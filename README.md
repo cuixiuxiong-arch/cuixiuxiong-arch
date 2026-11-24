@@ -15,7 +15,7 @@ analytics, and risk-controlled trading research.
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 [![Website](https://img.shields.io/badge/Website-auditablecode.com-0D2137?style=flat-square)](https://auditablecode.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Edgar_Cui-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-cui-882b58421)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Edgar_Cui-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgarcui)
 [![Email](https://img.shields.io/badge/Email-cuixiuxiong%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cuixiuxiong@gmail.com)
 
 </div>
@@ -100,7 +100,7 @@ Also: `okx-quant-bot` (grid strategy + watchdog) · `lottery-analyzer`
 
 Finance systems, financial analysis and finance automation roles — and collaboration
 on open-source tools for finance professionals.
-Reach me on [LinkedIn](https://www.linkedin.com/in/edgar-cui-882b58421) or at
+Reach me on [LinkedIn](https://www.linkedin.com/in/edgarcui) or at
 [cuixiuxiong@gmail.com](mailto:cuixiuxiong@gmail.com).
 
 <sub>Built on open source. Thanks to the pandas, Metabase and Python communities.</sub>
